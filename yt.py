@@ -6,7 +6,7 @@ import pandas as pd
 
 st.markdown("<h1 style='text-align: center; color: white;'>Youtube Data Harvesting</h1>", unsafe_allow_html=True)
 
-api_key = 'AIzaSyAk0aKdF6Gc9iGdkMpy00qVscBtza0b96Y'
+api_key = ##API_KEY##
 youtube = build('youtube','v3',developerKey=api_key)
 
 def channel(channel_id):
